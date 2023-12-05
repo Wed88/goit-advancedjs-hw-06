@@ -9,7 +9,7 @@ class Component<T> {
 }
  
 interface Element {
-  title: string;
+  title: any;
 }
 
 class Page extends Component<Element> {
